@@ -13,7 +13,7 @@ mysql_note "Creating user ${SG_EXAM_DB_USERNAME}"
 docker_process_sql --database=mysql <<<"CREATE USER '$SG_EXAM_DB_USERNAME'@'%' IDENTIFIED BY '$SG_EXAM_DB_PASSWORD';"
 
 mysql_note "Creating databases"
-for DATABASE_NAME in $SG_EXAM_DB__NAME; do
+for DATABASE_NAME in $SG_EXAM_DB_NAME; do
   mysql_note "Creating ${DATABASE_NAME}"
   _create_drupal_database ${DATABASE_NAME}
 done
