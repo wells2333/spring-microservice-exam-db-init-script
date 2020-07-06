@@ -1,4 +1,3 @@
-CREATE DATABASE `microservice-auth`;
 USE `microservice-auth`;
 
 SET NAMES utf8mb4;

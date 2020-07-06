@@ -1,4 +1,3 @@
-CREATE DATABASE `microservice-exam`;
 USE `microservice-exam`;
 
 
