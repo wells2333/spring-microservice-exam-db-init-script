@@ -17,8 +17,3 @@ for DATABASE_NAME in $SG_EXAM_DB_NAME; do
   mysql_note "Creating ${DATABASE_NAME}"
   _create_drupal_database ${DATABASE_NAME}
 done
-
-mysql_note "Init databases"
-
-mysql -u${SG_EXAM_DB_USERNAME} -p$SG_EXAM_DB_PASSWORD <<EOF
-source $WORK_PATH/$FILE_0;
