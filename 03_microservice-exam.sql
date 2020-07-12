@@ -87,7 +87,7 @@ CREATE TABLE `exam_examination`  (
   `id` bigint(20) NOT NULL COMMENT '主键',
   `examination_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '考试名称',
   `type` tinyint(4) NULL DEFAULT NULL COMMENT '考试类型',
-  `attention` varchar(1000) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '考试注意事项',
+  `attention` varchar(3000) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '考试注意事项',
   `start_time` timestamp(0) NULL DEFAULT NULL COMMENT '考试开始时间',
   `end_time` timestamp(0) NULL DEFAULT NULL COMMENT '考试结束时间',
   `total_score` int(11) NOT NULL COMMENT '总分',
