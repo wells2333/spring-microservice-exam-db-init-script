@@ -1,8 +1,5 @@
 USE `microservice-user`;
 
-SET NAMES utf8mb4;
-SET FOREIGN_KEY_CHECKS = 0;
-
 -- ----------------------------
 -- Table structure for sys_attachment
 -- ----------------------------
@@ -1326,4 +1323,3 @@ CREATE TABLE `sys_user_student`  (
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '用户学生关联表' ROW_FORMAT = Compact;
 
-SET FOREIGN_KEY_CHECKS = 1;

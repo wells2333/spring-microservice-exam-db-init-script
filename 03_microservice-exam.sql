@@ -1,9 +1,5 @@
 USE `microservice-exam`;
 
-
-SET NAMES utf8mb4;
-SET FOREIGN_KEY_CHECKS = 0;
-
 -- ----------------------------
 -- Table structure for exam_answer
 -- ----------------------------
@@ -728,5 +724,3 @@ INSERT INTO `exam_subject_short_answer` VALUES (696326726975885312, 602231546270
 INSERT INTO `exam_subject_short_answer` VALUES (696327229180874752, 602231546270846976, '<p>测试简答题2</p>', '<p>测试简答题2</p>', 5, '<p>测试简答题2</p>', 2, 'preview', '2020-04-05 11:55:49', 'preview', '2020-04-05 11:55:49', 0, 'EXAM', 'gitee');
 INSERT INTO `exam_subject_short_answer` VALUES (696329333312196608, NULL, '<p>简答题</p>', '<p>A</p>', 5, '<p>B</p>', 2, 'preview', '2020-04-05 12:04:10', 'preview', '2020-04-05 12:04:10', 0, 'EXAM', 'gitee');
 INSERT INTO `exam_subject_short_answer` VALUES (696329371371311104, NULL, '<p>简答题2</p>', '<p>地方大</p>', 5, '<p>打单发</p>', 2, 'preview', '2020-04-05 12:04:19', 'preview', '2020-04-05 12:04:19', 0, 'EXAM', 'gitee');
-
-SET FOREIGN_KEY_CHECKS = 1;
